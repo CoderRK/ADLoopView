@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F137CECE1C9ABA8400F31374 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F137CECD1C9ABA8400F31374 /* Images.xcassets */; };
 		F1BD8C311C96AB3F00A25DCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD8C301C96AB3F00A25DCA /* main.m */; };
 		F1BD8C341C96AB3F00A25DCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD8C331C96AB3F00A25DCA /* AppDelegate.m */; };
 		F1BD8C371C96AB3F00A25DCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD8C361C96AB3F00A25DCA /* ViewController.m */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F137CECD1C9ABA8400F31374 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F1BD8C2C1C96AB3F00A25DCA /* ADDisplayView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADDisplayView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BD8C301C96AB3F00A25DCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1BD8C321C96AB3F00A25DCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				F1BD8C3B1C96AB3F00A25DCA /* Assets.xcassets */,
 				F1BD8C3D1C96AB3F00A25DCA /* LaunchScreen.storyboard */,
 				F1BD8C401C96AB3F00A25DCA /* Info.plist */,
+				F137CECD1C9ABA8400F31374 /* Images.xcassets */,
 				F1BD8C2F1C96AB3F00A25DCA /* Supporting Files */,
 			);
 			path = ADDisplayView;
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F137CECE1C9ABA8400F31374 /* Images.xcassets in Resources */,
 				F1BD8C3F1C96AB3F00A25DCA /* LaunchScreen.storyboard in Resources */,
 				F1BD8C3C1C96AB3F00A25DCA /* Assets.xcassets in Resources */,
 			);
@@ -413,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ADDisplayView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.9666.www.ADDisplayView;
@@ -424,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ADDisplayView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.9666.www.ADDisplayView;
